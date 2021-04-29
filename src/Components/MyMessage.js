@@ -5,9 +5,9 @@ const MyMessage = ({ message }) => {
     return (
       <img
         src={message.attachments[0].file}
-        alt="message-attachments"
+        alt="message-attachment"
         className="message-image"
-        style={{ float: "left" }}
+        style={{ float: "right" }}
       />
     );
   }
@@ -15,7 +15,7 @@ const MyMessage = ({ message }) => {
     <div
       className="message"
       style={{
-        float: "left",
+        float: "right",
         marginRight: "18px",
         color: "white",
         backgroundColor: "#3b2a50",
